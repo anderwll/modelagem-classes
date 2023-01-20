@@ -129,7 +129,6 @@ export class Calculator {
         this._history = [];
         console.log(`Historico limapado com sucesso! 🎉`);
     }
-
 };
 
 // ------- EXERCICIO 5 -------
@@ -192,11 +191,7 @@ export class GasPump {
     this._bombaQuantity = quantity;
     console.log(`A quantidade foi alterada para ${this._bombaQuantity} litros.`);
    };
-
-   
-
 }
-
 
 // ------- EXERCICIO 6 -------
 export class Car {

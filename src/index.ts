@@ -1,6 +1,5 @@
 import { Account, Ball, Calculator, Car, Counter, GasPump } from "./class";
 
-
 // ------- EXERCICIO 1 -------
 const counter1 = new Counter;
 counter1.increment(10);
@@ -29,7 +28,6 @@ calculator1.multiply(3,2);
 calculator1.share(10, 5);
 calculator1.changeHistory();
 
-
 // ------- EXERCICIO 5 -------
 const gasPump1 = new GasPump('Comum', 5, 50);
 gasPump1.supplyByLiter(2);
@@ -37,10 +35,8 @@ gasPump1.supplyByValue(10);
 gasPump1.changeFuel('Aditivada');
 gasPump1.changeQuantityFuel(100);
 
-
 // ------- EXERCICIO 6 -------
 const myFusca = new Car(10); // KM/L
-
 myFusca.addFuel(1); // VALOR EM LITROS
 myFusca.toWalk(1); // VALOR EM KM
 myFusca.changeFuel();
